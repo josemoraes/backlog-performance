@@ -1,24 +1,57 @@
-<header class="py-5 px-6 text-white">
-  <h1 class="text-4xl font-bold">Hi, there</h1>
-  <h2 class="text-lg font-thin">Let's measure you're backlog performance</h2>
-</header>
-<div class="flex flex-row flex-1">
-  <aside class="w-16 pt-5 flex flex-col items-center justify-between">
-    <ul class="flex flex-col items-center">
-      <li class="mb-5">
-        <a href="#"><span class="icon-home text-2xl text-white"></span></a>
-      </li>
-      <li class="mb-5">
-        <a href="#add-task"><span class="icon-plus text-2xl text-white"></span></a>
-      </li>
-    </ul>
-    <ul class="flex flex-col items-center mb-5">
-      <li>
-        <a href="https://github.com/josemoraes/backlog-performance" target="_blank"><span class="icon-social-github text-3xl p-2 rounded-full bg-white shadow hover:bg-green-600 hover:text-white transition duration-200 ease-in-out"></span></a>
-      </li>
-    </ul>
-  </aside>
-  <main class="flex-1 shadow bg-white rounded-tl-2xl px-10 py-5">
-    <h2>Tarefas</h2>
-  </main>
-</div>
+<section>
+  <header class="flex flex-row flex-1 items-center justify-between mb-16">
+    <h2 class="text-3xl font-bold uppercase mr-3">Projects</h2>
+    <input
+      type="search"
+      name="search"
+      id="search"
+      placeholder="Search your project"
+      class="py-2 px-5 shadow rounded bg-white flex-1"
+    />
+  </header>
+
+  <div class="w-full px-7 py-5 shadow bg-white hover:shadow-md transition duration-200 rounded flex flex-row justify-between">
+    <div>
+      <h3>Project's name</h3>
+      <ul>
+        <li>
+          <label><input type="checkbox" checked> Task 1</label>
+        </li>
+        <li>
+          <label><input type="checkbox"> Task 2</label>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h4>Stats</h4>
+      <table>
+        <tbody>
+          <tr class="border">
+            <td class="border">Tasks done</td>
+            <td class="border">1</td>
+          </tr>
+          <tr class="border">
+            <td class="border">Tasks remaining</td>
+            <td class="border">1</td>
+          </tr>
+          <tr class="border">
+            <td class="border">Total estimated hours</td>
+            <td class="border">10</td>
+          </tr>
+          <tr class="border">
+            <td class="border">Spent hours</td>
+            <td class="border">1</td>
+          </tr>
+          <tr class="border">
+            <td class="border">Current Performance</td>
+            <td class="border">2</td>
+          </tr>
+          <tr class="border">
+            <td class="border">Current estimate to complete backlog</td>
+            <td class="border">2</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>

@@ -1,8 +1,10 @@
 import { renderComponents } from "./components";
 import Home from "./pages/Home";
+import NewProject from "./pages/NewProject";
 
 const routes = {
   "/": Home,
+  "new-project": NewProject,
 };
 
 const renderRoute = ($App) => {
